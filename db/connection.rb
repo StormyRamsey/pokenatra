@@ -1,6 +1,6 @@
 # Load Active Record and connect to the DB
 ActiveRecord::Base.establish_connection({
-  database: 'app',
+  database: 'pokenatra',
   adapter: 'postgresql'
 })
 
